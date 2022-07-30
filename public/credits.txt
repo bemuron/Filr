@@ -1,2 +1,10 @@
 hero image
 <a href="https://www.flaticon.com/free-icons/folder" title="folder icons">Folder icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/folder" title="folder icons">Folder icons created by Vitaly Gorbachev - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/folder" title="folder icons">Folder icons created by Vitaly Gorbachev - Flaticon</a>
+
+<a href='https://www.freepik.com/vectors/folder-icon'>Folder icon vector created by rawpixel.com - www.freepik.com</a>
+
+<a href='https://www.freepik.com/vectors/file'>File vector created by rawpixel.com - www.freepik.com</a>

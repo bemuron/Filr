@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,11 @@ class HomeController extends Controller
      */
     public function index()
     {
+        // $res = DB::table('files')//SHOW SERVER STATUSG
+        //     ->select(DB::raw("SHOW SERVER STATUSG"))
+        //     ->first();
+
+        // dd($res);
         return view('home');
     }
 }

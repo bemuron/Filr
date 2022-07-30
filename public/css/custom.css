@@ -1,0 +1,191 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 2, 2021, 5:06:35 PM
+    Author     : Bruno.Emuron
+*/
+
+/*to make the date picker appear above the modal not under*/
+#ui-datepicker-div  {
+    z-index: 2000 !important;
+}
+
+/*to make the select 2 dropdown appear above the modal not under*/
+/* .select2-container{
+  z-index:2000;
+} */
+
+/* for the data table dropdown */
+table.dataTable tbody td.dt-checkboxes-cell {
+  vertical-align: middle;
+}
+
+table.dataTable tbody td.sorting_1{
+  background-color: #141c2b;
+}
+
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+  background-color: #141c2b;
+}
+
+.page-item.disabled .page-link {
+  background-color: #141c2b;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  background-color: #141c2b;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:focus {
+  background-color: #141c2b;
+  color: #141c2b!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:focus {
+  background-color: #141c2b;
+  color: #141c2b!important;
+}
+
+/*place table captions at the top of the table*/
+caption { 
+    caption-side:top; }
+
+.ui-autocomplete {
+    z-index: 20000 !important;
+}
+
+/*makes the 2 hr lines be on the same line with the "OR" text */
+.upload-divider{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.upload-method-divider{
+  flex-grow:0;
+}
+
+.divider-right-div{
+  flex-grow:1;
+  height: 1px;
+  margin: 10px auto;
+  background-color: #000000;
+}
+
+.divider-left-div{
+  flex-grow:1;
+  height: 1px;
+  margin: 10px auto;
+  background-color: #000000;
+}
+
+/* Hide all steps by default: */
+.add-asset-tab-content {
+  display: none;
+}
+
+
+/*for the laoding spinner*/
+
+/*Hidden class for adding and removing*/
+.lds-dual-ring.hidden {
+    display: none;
+}
+
+/*Add an overlay to the entire page blocking any further presses to buttons or other elements.*/
+.overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/*Spinner Styles  border-color: #000 transparent #000 transparent;*/
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+/*
+to add color gradient to the border play with below styles
+    width: 300px;
+  height: 80px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+*/
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 5% auto;
+    border-radius: 50%;
+    border: 6px solid #000;
+    border-color: #03014d #03014d #b2b507 #870505;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* end loading spinner designs*/
+
+/* ------for the custom alert----- */
+#custom-alert{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+}
+
+/*Hidden class for adding and removing*/
+.custom-alert.hidden {
+    display: none;
+}
+
+.custom-alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.custom-alert.success {background-color: #04AA6D;}
+.custom-alert.info {background-color: #2196F3;}
+.custom-alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: #141c2b;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
