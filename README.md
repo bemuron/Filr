@@ -1,8 +1,8 @@
 
 ## About Filr
 
-Filr is your online small file folder. Simply store files and access them when you want.
-Filr's goal is to keep it simple when it comes to file storage just like a physical folder works: you place your document there and access it when you want and do whatever you want with it.
+<strong><a href="https://filrdemo.emtechint.com" target="_blank">Filr</a> is your online small file folder. Simply store files and access them when you want.
+Filr's goal is to keep it simple when it comes to file storage just like a physical folder works: you place your document there and access it when you want and do whatever you want with it, but you don't edit it from the folder.
 * No online file editing or sharing, just storing only.
 
 <span>Created for <strong><a href="https://planetscale.com/?utm_source=hashnode&utm_medium=hackathon&utm_campaign=announcement_article" target="_blank">PlanetScale</a> & 
